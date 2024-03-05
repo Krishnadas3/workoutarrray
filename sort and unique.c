@@ -20,30 +20,7 @@ void main()
                     a[j] = temp;
                }
           }
-     // printf("\n %d\n",a[i]);
+     printf("\n %d\n",a[i]);
      }
-     for ( i = 0; i < num; i++)
-     {
-          flag=0;
-          for ( j = 0; j < num; j++)
-          {
-               if (i!=j)
-               {
-                    if (a[i]==a[j])
-                    {
-                         flag=1;
-                         break;
-                    }
-                    
-               }
-               
-          }   
-          if (flag==0)
-          {
-               count++;
-          }
-         
-     }
-     printf("%d",count);
 }
      

@@ -22,14 +22,15 @@ void main()
           }
           printf("%d", a[i]);
      }
-     for ( i = 0; i < num; i++)
-     {
-          if (a[i]==0)
-          {
-               count++;
-          }
+     
+     // for ( i = 0; i < num; i++)
+     // {
+     //      if (a[i]==0)
+     //      {
+     //           count++;
+     //      }
           
-     }
-     printf("\nno of 0 =%d",count);
+     // }
+     // printf("\nno of 0 =%d",count);
      
 }
